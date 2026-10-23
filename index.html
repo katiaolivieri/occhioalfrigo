@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OcchioAlFrigo, informativa sulla privacy</title>
+    <meta name="description" content="Informativa sulla privacy dell'app OcchioAlFrigo: i dati restano solo sul telefono.">
+    <style>
+        :root {
+            --crema: #FAF6EC;
+            --superficie: #FFFFFF;
+            --melanzana: #2B1A2E;
+            --verde: #1F6B45;
+            --verde-scuro: #17533A;
+            --salvia: #EAF0E4;
+            --testo: #24302A;
+            --tenue: #5F675D;
+            --bordo: #E5E2D6;
+            --serif: Georgia, "Noto Serif", "Times New Roman", serif;
+            --sans: system-ui, -apple-system, Roboto, "Segoe UI", Arial, sans-serif;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --crema: #1B1520;
+                --superficie: #251D2A;
+                --verde: #8DC79E;
+                --verde-scuro: #A9D8B5;
+                --salvia: #2C3A30;
+                --testo: #ECE8E1;
+                --tenue: #B5AFA8;
+                --bordo: #3A3140;
+            }
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            background: var(--crema);
+            color: var(--testo);
+            font-family: var(--sans);
+            font-size: 1.05rem;
+            line-height: 1.65;
+        }
+
+        header {
+            background: var(--melanzana);
+            color: #fff;
+            padding: 1.1rem 1rem;
+        }
+
+        .marchio {
+            max-width: 46rem;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: .6rem;
+            font-size: 1.35rem;
+            font-weight: 500;
+        }
+
+        main {
+            max-width: 46rem;
+            margin: 0 auto;
+            padding: 2rem 1rem 3rem;
+        }
+
+        h1, h2 {
+            font-family: var(--serif);
+            color: var(--verde-scuro);
+            line-height: 1.2;
+        }
+
+        h1 { font-size: 2rem; margin: 0 0 .4rem; }
+        h2 { font-size: 1.3rem; margin: 2.2rem 0 .6rem; }
+
+        .aggiornamento { color: var(--tenue); margin: 0 0 1.5rem; }
+
+        .in-breve {
+            background: var(--salvia);
+            border-radius: 1rem;
+            padding: 1rem 1.25rem;
+        }
+
+        .in-breve p { margin: 0; }
+
+        ul { padding-left: 1.2rem; }
+        li { margin-bottom: .35rem; }
+
+        a { color: var(--verde); text-underline-offset: .2em; }
+
+        hr { border: 0; border-top: 1px solid var(--bordo); margin: 2.5rem 0; }
+
+        footer { color: var(--tenue); font-size: .95rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="marchio">
+            <svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M11.5 20.5C5 20 2.5 14.5 3.5 7.5c6 .6 9 5.6 8 13z" fill="#6E9F5B" />
+                <path d="M12.5 20.5c6.5-.5 9-6 8-13-6 .6-9 5.6-8 13z" fill="#8DB57A" />
+            </svg>
+            OcchioAlFrigo
+        </div>
+    </header>
+
+    <main>
+        <h1>Informativa sulla privacy</h1>
+        <p class="aggiornamento">Ultimo aggiornamento: 23 ottobre 2026</p>
+
+        <div class="in-breve">
+            <p><strong>In breve:</strong> OcchioAlFrigo non raccoglie, non invia e non condivide i tuoi dati. Tutto quello che scrivi nell'app resta sul tuo telefono.</p>
+        </div>
+
+        <h2>Chi sviluppa l'app</h2>
+        <p>OcchioAlFrigo è un'app indipendente sviluppata da Olivia Folli. Per qualsiasi domanda su questa informativa puoi scrivere a <a href="mailto:olivia.folli16@gmail.com">olivia.folli16@gmail.com</a>.</p>
+
+        <h2>Quali dati usa l'app</h2>
+        <p>Per funzionare, l'app salva sul telefono le informazioni che inserisci tu:</p>
+        <ul>
+            <li>gli articoli della lista della spesa e le loro categorie;</li>
+            <li>i cibi presenti nel frigo, con le eventuali date di scadenza;</li>
+            <li>i prezzi che annoti, con il supermercato e la data;</li>
+            <li>le categorie che crei.</li>
+        </ul>
+        <p>Non servono account, registrazione, nome, email o numero di telefono. L'app non usa la posizione, la fotocamera, il microfono, i contatti o altri dati del telefono.</p>
+
+        <h2>Dove sono salvati i dati</h2>
+        <p>I dati sono salvati in un piccolo database nella memoria privata dell'app, sul tuo dispositivo. Non vengono inviati a server di chi sviluppa l'app né a terzi, e chi sviluppa l'app non può vederli.</p>
+        <p>L'app dichiara il permesso di accesso a Internet perché è incluso di serie nella tecnologia con cui è costruita (.NET MAUI), ma non lo usa per inviare o ricevere i tuoi dati.</p>
+
+        <h2>Backup del telefono</h2>
+        <p>Se sul tuo telefono è attivo il backup automatico (ad esempio il backup Android su Google Drive o il backup iCloud su iPhone), i dati dell'app possono essere inclusi nel backup del dispositivo. Questo backup è gestito dal sistema operativo e dal tuo account Google o Apple, secondo le loro informative e le impostazioni che hai scelto. Chi sviluppa l'app non ha accesso a questi backup.</p>
+
+        <h2>Pubblicità, statistiche e tracciamento</h2>
+        <p>L'app non mostra pubblicità e non contiene strumenti di analisi, statistiche d'uso o tracciamento. Non usa cookie.</p>
+
+        <h2>Condivisione con terzi</h2>
+        <p>Nessun dato viene venduto, ceduto o condiviso con terzi.</p>
+
+        <h2>Come cancellare i dati</h2>
+        <p>Puoi cancellare i singoli elementi direttamente dall'app. Per eliminare tutti i dati, disinstalla l'app oppure, su Android, vai in <em>Impostazioni &gt; App &gt; OcchioAlFrigo &gt; Spazio di archiviazione &gt; Cancella dati</em>.</p>
+
+        <h2>Minori</h2>
+        <p>L'app non è rivolta specificamente ai minori e non raccoglie dati personali di nessun utente, minori compresi.</p>
+
+        <h2>I tuoi diritti</h2>
+        <p>Dato che chi sviluppa l'app non raccoglie né conserva dati personali, non ci sono dati che ti riguardano da mostrarti, correggere o cancellare. I dati salvati nell'app sono sotto il tuo pieno controllo sul tuo dispositivo. Per qualsiasi domanda puoi scrivere all'indirizzo indicato sopra.</p>
+
+        <h2>Modifiche a questa informativa</h2>
+        <p>Se in futuro l'app cambierà il modo in cui tratta i dati (ad esempio con la sincronizzazione tra più dispositivi), questa informativa verrà aggiornata prima del rilascio della nuova versione e la data in alto cambierà di conseguenza.</p>
+
+        <hr>
+
+        <h2 lang="en">In English</h2>
+        <p lang="en">OcchioAlFrigo does not collect, transmit or share any personal data. Everything you enter (shopping list, fridge items, expiry dates, prices and categories) is stored only on your device and is never sent to the developer or to third parties. The app contains no ads, analytics or tracking. Your data may be included in your device's own backup (Google or Apple) if you have enabled it. You can delete all data by uninstalling the app. Contact: <a href="mailto:olivia.folli16@gmail.com">olivia.folli16@gmail.com</a>.</p>
+
+        <hr>
+
+        <footer>
+            <p>OcchioAlFrigo, lista della spesa, frigo e prezzi.</p>
+        </footer>
+    </main>
+</body>
+</html>
